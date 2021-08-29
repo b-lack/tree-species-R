@@ -32,5 +32,5 @@ test_that("color", {
 
   color <- getColorFromId('cDD')
 
-  expect_type( color, "integer")
+  expect_type( color, "character")
 })

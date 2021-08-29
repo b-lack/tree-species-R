@@ -6,6 +6,11 @@
 \usage{
 decode(speciesId, languageCode)
 }
+\arguments{
+\item{speciesId}{Id of the species}
+
+\item{languageCode}{Language code ("de", "en", "es")}
+}
 \value{
 Data frame from all species & ids in defined language
 }

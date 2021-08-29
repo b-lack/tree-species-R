@@ -2,7 +2,7 @@
 
 This package includes lists of tree species with corresponding translation. It is intended to support forest-specific applications to get ready for internationalization.
 
-## Installation
+## Install
 
 The current development version can be installed from GitHub with
 

@@ -6,6 +6,9 @@
 \usage{
 getSpeciesLength(languageCode)
 }
+\arguments{
+\item{languageCode}{Language code ("de", "en", "es")}
+}
 \value{
 integer
 }

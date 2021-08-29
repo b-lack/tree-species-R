@@ -6,6 +6,11 @@
 \usage{
 encode(name, languageCode)
 }
+\arguments{
+\item{name}{Name of the species}
+
+\item{languageCode}{Language code ("de", "en", "es")}
+}
 \value{
 3 character species id
 }

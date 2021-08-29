@@ -8,6 +8,8 @@ getV8Context <- function (){
 #'
 #' Returns a 3 character species id from a given species name.
 #'
+#' @param name Name of the species
+#' @param languageCode Language code ("de", "en", "es")
 #' @return 3 character species id
 #' @export
 #' @examples
@@ -23,6 +25,7 @@ encode <- function(name, languageCode){
 #'
 #' Returns a 3 character species id from a given species name.
 #'
+#' @param languageCode Language code ("de", "en", "es")
 #' @return Data frame from all species & ids in defined language
 #' @export
 #' @examples
@@ -43,6 +46,8 @@ getList <- function(languageCode){
 #' Returns a list of names of the given id.
 #' (Multiple names if there are multiple names for the tree species in the specified language.)
 #'
+#' @param speciesId Id of the species
+#' @param languageCode Language code ("de", "en", "es")
 #' @return Data frame from all species & ids in defined language
 #' @export
 #' @examples
@@ -59,7 +64,8 @@ decode <- function(speciesId, languageCode){
 #'
 #' Returns a color code for given species id
 #'
-#' @return hexadezimal color
+#' @param speciesId Id of the species
+#' @return character: hexadecimal color
 #' @export
 #' @examples
 #' getColorFromId("cDD")
@@ -72,6 +78,7 @@ getColorFromId <- function(speciesId){
 #'
 #' Number of tree species available in the specified language
 #'
+#' @param languageCode Language code ("de", "en", "es")
 #' @return integer
 #' @export
 #' @examples
@@ -85,6 +92,7 @@ getSpeciesLength <- function(languageCode){
 #'
 #' Returns random generated species id
 #'
+#' @param languageCode Language code ("de", "en", "es")
 #' @return 3 character species id
 #' @export
 #' @examples

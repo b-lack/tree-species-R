@@ -6,8 +6,11 @@
 \usage{
 getColorFromId(speciesId)
 }
+\arguments{
+\item{speciesId}{Id of the species}
+}
 \value{
-hexadezimal color
+character: hexadecimal color
 }
 \description{
 Returns a color code for given species id

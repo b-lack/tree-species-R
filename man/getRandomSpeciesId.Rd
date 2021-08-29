@@ -6,6 +6,9 @@
 \usage{
 getRandomSpeciesId(languageCode)
 }
+\arguments{
+\item{languageCode}{Language code ("de", "en", "es")}
+}
 \value{
 3 character species id
 }
