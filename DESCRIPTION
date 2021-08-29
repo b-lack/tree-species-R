@@ -1,6 +1,6 @@
 Package: TreeSpeciesI18N
 Type: Package
-Title: Internationalizing Tree Species
+Title: Tree Species Internationalization
 Version: 1.0.6
 Author: Gerrit Balindt
 Maintainer: Gerrit Balindt <gerrit.balindt@gruenecho.de>
@@ -8,6 +8,8 @@ Description: This repository includes lists of tree species with corresponding t
 License: MIT
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/b-lack/tree-species-R
+BugReports: https://github.com/b-lack/tree-species-R/issues
 Imports:
     V8
 Suggests: 
