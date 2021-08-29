@@ -6,14 +6,13 @@ This package includes lists of tree species with corresponding translation. It i
 
 The current development version can be installed from GitHub with
 
-´´´
+```r
 devtools::install_github("b-lack/tree-species-i18n-R")
-
-´´´
+```
 
 ## Usage
 
-```R
+```r
 library(TreeSpeciesI18N)
 
 speciesCount <- TreeSpeciesI18N::getSpeciesLength('en')
